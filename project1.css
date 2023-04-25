@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(247, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo:hover{
+    font-size: 20px;
+    font-weight: 900;
+}
+nav ul { display: flex;
+   
+    justify-items: center;
+    gap: 30px;
+}
+  li {
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border:1px solid black ;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: 900;
+}
+/* nav div {
+    font-size:20px;
+    font-weight: 900;
+} */
+section {
+    display: flex;
+    align-items: center;
+    
+   
+  
+
+}
+
+.right-section h1 span{
+    background-color: rgb(246, 246, 246);
+    color: blue;
+    padding: 10px;
+    font-size: 40px;
+   
+
+}
+.right-section h1{
+    margin-bottom: 30px;
+
+}
+.right-section p span{
+    color: blue;
+    font-size:30pz ;
+    font-weight: bold;
+}
+.right-section p{
+    padding: 10px;
+    
+}
+.right-section{
+    padding: 0 8%;
+    width: 60%;
+   
+   
+}
+
+.left-section  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 40%;
+
+}
+.left-section img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+  
+
+}
+.chat-button {
+    display: flex;
+    align-items: center;
+    gap: 30;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding:  20px 0;
+}
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+
